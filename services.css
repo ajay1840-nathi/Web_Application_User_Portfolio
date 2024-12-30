@@ -1,0 +1,121 @@
+#navigation {
+    align-content: center;
+    text-align: center;
+    margin: 0px 100px 0px;
+    padding: 30px;
+    width: 90%;
+}
+.serviceSecond{
+    background-color: lavender;
+    margin: 0px 30px 0px;
+}
+#serviceDivtop{
+    align-content: center;
+    text-align:justify;
+    padding: 100px;
+    margin-top: 30px;
+}
+#serviceThird{
+    margin: 0px 30px 0px;
+    background-color: bisque;
+    padding: 90px;
+}
+.social{
+    width: 75%;
+}
+#serviceFourth{
+    background-color: lavender;
+    margin: 0px 30px 0px;
+}
+.graphic{
+    padding: 50px 50px 0px;
+}
+.graph{
+    width: 70%;
+    padding: 30px;
+}
+.art{
+    padding: 10px;
+    margin: 6px;
+}
+.serviceFifth{
+    margin: 0px 30px 0px;
+    background-color: bisque;
+    padding: 90px;
+}
+#divbottom{
+    padding: 90px;
+    text-align: justify;
+}
+.serviceSixth{
+    background-color: lavender;
+    margin: 0px 30px 0px;
+}
+#divtop{
+    padding: 150px 90px;
+    align-content: center;
+}
+
+#gallery{
+    align-content: center;
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+}
+#carouselExampleIndicators{
+    width: 700px;
+    height: 750px;
+    align-content: center;
+    text-align: center;
+    margin: 30px 600px 30px;
+    
+}
+.displaypop{
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    visibility: hidden;
+    transform: translate(-50%,-50%) scale(0.1);
+}
+.open-displaypop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: visible;
+    background-color: rgb(226, 158, 158);
+    transform: translate(-50%,-50%) scale(1); 
+}
+
+
+.fa:hover {
+    opacity: 0.9;
+}
+
+.fa-twitter {
+    background: #069adf;
+    color: white;
+    border-radius: 6px;
+}
+
+.fa-facebook {
+    background: #3e04d1;
+    color: white;
+    border-radius: 6px;
+}
+
+.fa-instagram {
+    background: #ef225f;
+    color: white;
+    border-radius: 6px;
+}
+
+.fa {
+    padding: 12px;
+    font-size: 40px;
+    width: 40px;
+    text-decoration: none;
+    margin: 5px 10px;
+}
+
+
+

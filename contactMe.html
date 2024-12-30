@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Simple Web Page</title>
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+            <link rel="stylesheet" type="text/css" href="contactMe.css" />
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    </head>
+    <body>
+      <section id="navigation">
+        <div class="container heading ">
+            <h1 font-family="Calibri"> DOVILE </h1>
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="webPage.html"> HOME </a>
+                  <a class="navbar-brand" href="services.html"> SERVICES </a>
+                  <a class="navbar-brand" href="webPage.html#FourthSection"> ABOUT ME </a>
+                  <a class="navbar-brand" href="contactMe.html"> CONTACT </a>
+                  <a class="navbar-brand" href="webPage.html#seventhSection"> BLOG </a>
+                  
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </div>
+      </section>
+      <section id="form" class="Secondsection">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md" id="divLeft">
+                  <form>
+                    <fieldset>
+                      <legend>
+                        <h1>Leave me a message</h1>
+                      </legend>
+                      <br><br><br>
+                      
+                        <label> Name*: </label>
+                        <input type="text" id="name" class="holder" placeholder="Enter your name" >
+                        <p id="special"></p>
+                        <br><br><br>
+                        <label> Email*: </label>
+                        <input type="email" id="mail" class="holder" placeholder="Enter your email">
+                        <p id="format"></p>
+                        <br><br><br>
+                        <label> Mobile*: </label>
+                        <input type="tel" id="mobile" class="holder" placeholder="Mobile number" />
+                        <p id="limit"></p>
+                        <br><br><br>
+                        <label> Zipcode*: </label>
+                        <input type="number" id="zip" class="holder" placeholder="Enter zipcode"/>
+                        <p id="pincode"></p>
+                        <br><br><br>
+                        <label> Message: </label>
+                        <textarea placeholder="Comments and Queries" id="area">  </textarea>
+                        <br><br><br>
+                    </fieldset>
+                </form>
+                    <br>
+                    <a href="contactMe.html">
+                        <button type="submit" class="btn btn-dark" onclick="checking()" > Submit </button></a>
+                </div>
+                <div class="col-lg-6 col-md">
+                    <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=656,h=892,fit=scale-down/dovilelxpfw/DovileCo-YrDDg5Dn8gfZr5Vp.jpg"
+                        alt="lady reading book">
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="data" class="pop">
+      <p><b>Name:</b><div id="name"></div></p>
+      <p><b>E-mail:</b><div id="mail"></div></p>
+      <p><b>Mobile:</b><div id="phone"></div></p>
+      <p><b>Zipcode:</b><div id="code"></div></p>
+      <p><b>Message:</b><div id="msg"></div></p>
+    </div>
+      <section >
+        
+      </section>
+      <section class="gallery">
+        <div class="gallery">
+            <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=242,h=242,fit=crop/dovilelxpfw/DovileCo-AVLL5DXVDbCVnM4k.jpg" class="gallery" alt="lady" width="242px" height="242px" >
+            <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=242,h=242,fit=crop/dovilelxpfw/DovileCo-d955jE6v30UrV7Kg.jpg" class="gallery" alt="lady" width="242px" height="242px" >
+            <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=242,h=242,fit=crop/dovilelxpfw/DovileCo-dJooDG0q5os2DJnq.jpg" class="gallery" alt="ladies" width="242px" height="242px" >
+            <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=242,h=242,fit=crop/dovilelxpfw/DovileCo-mnllO7kBbNhDnj1M.jpg" class="gallery" alt="lady" width="242px" height="242px" >
+        </div>
+    </section>
+    <footer>  
+        <center>  
+            <a href="https://twitter.com/?lang=en-in" class="fa fa-twitter"></a>
+            <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com" class="fa fa-instagram"></a><br><br>
+            <p><u>Terms of service</u> &copy; copyright 2022</p>
+        </center>
+    </footer>
+
+        <!--div class="modal-dialog modal-dialog-centered">
+          <h6>Name:<p id="first"></p></h6>
+          <h6>Email:<p id="second"></p></h6>
+          <h6>Mobile:<p id="third"></p></h6>
+          <h6>Zipcode:<p id="fourth"></p></h6>
+          <h6>Message:<p id="fifth"></p></h6>
+        </div-->
+
+      
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+            crossorigin="anonymous">
+        </script>
+        <script type="text/javascript" src="contactMe.js">
+
+        </script>
+
+    </body>
+</html>

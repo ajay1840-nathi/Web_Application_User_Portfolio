@@ -1,0 +1,120 @@
+
+img {
+    height: 50vh;
+    width: 20vw;
+    text-align:center;
+    margin-left: 190px;
+}
+
+.Secondsection {
+    background-color: lavender;
+    margin: 0px 30px 0px;
+
+}
+
+p {
+    display: inline-block;
+
+}
+
+#divtop,#divbottom {
+    width: 560px;
+    text-align:left;
+    margin-top: 90px;
+}
+#navigation {
+    align-content: center;
+    text-align: center;
+    margin: 0px 100px 0px;
+    padding: 30px;
+    width: 90%;
+}
+#thirdSection {
+    margin: 30px 100px 30px;
+}
+#FourthSection {
+    text-align: center;
+    padding: 90px;
+    margin: 0px 30px 0px;
+    background-color: bisque;
+}
+#head2{
+    text-align: center;
+}
+#SixthSection {
+    text-align: justify;
+    background-color: bisque;
+    margin: 0px 30px 20px;
+}
+.FifthSection {
+    text-align: justify;
+    background-color: lavender;
+    margin: 0px 30px 0px;
+}
+.navbar navbar-expand-lg bg-light {
+    margin: 0px 100px 0px;
+    padding: 30px;
+    word-spacing: 50px;
+    width: 100px;
+    
+}
+#seventhSection{
+    text-align: justify;
+    background-color: lavender;
+    margin: 0px 30px 0px;
+    padding: auto;
+}
+.blogHead{
+    align-content: center;
+    text-align:center;
+    margin-top: 50px;
+}
+.blog{
+    align-content: center;
+    text-align: justify;
+    padding: 50px 100px 50px 100px;
+}
+.eigthSection{
+    text-align: justify;
+    background-color: bisque;
+    margin: 0px 30px 20px;
+}
+.gallery{
+    align-content: center;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+
+.fa:hover {
+    opacity: 0.9;
+}
+
+.fa-twitter {
+    background: #069adf;
+    color: white;
+    border-radius: 6px;
+}
+
+.fa-facebook {
+    background: #3e04d1;
+    color: white;
+    border-radius: 6px;
+}
+
+.fa-instagram {
+    background: #ef225f;
+    color: white;
+    border-radius: 6px;
+}
+
+.fa {
+    padding: 12px;
+    font-size: 40px;
+    width: 40px;
+    text-decoration: none;
+    margin: 5px 10px;
+}

@@ -1,0 +1,74 @@
+#navigation {
+    align-content: center;
+    text-align: center;
+    margin: 0px 100px 0px;
+    padding: 30px;
+    width: 90%;
+}
+#form{
+    text-align: justify;
+    background-color: lavender;
+    margin: 0px 30px 0px;
+}
+#divLeft{
+    padding:27px 90px;
+}
+.holder,textarea{
+    background-color: bisque;
+}
+form p{
+    font-size:small;
+    color: red;
+}
+.pop{
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    visibility: hidden;
+    transform: translate(-50%,-50%) scale(0.1);
+    background-color: #ef225f;
+}
+.open-pop{
+    visibility: visible;
+    background-color: black;
+    transform: translate(-50%,-50%) scale(1); 
+}
+.gallery{
+    align-content: center;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+
+.fa:hover {
+    opacity: 0.9;
+}
+
+.fa-twitter {
+    background: #069adf;
+    color: white;
+    border-radius: 6px;
+}
+
+.fa-facebook {
+    background: #3e04d1;
+    color: white;
+    border-radius: 6px;
+}
+
+.fa-instagram {
+    background: #ef225f;
+    color: white;
+    border-radius: 6px;
+}
+
+.fa {
+    padding: 12px;
+    font-size: 40px;
+    width: 40px;
+    text-decoration: none;
+    margin: 5px 10px;
+}
